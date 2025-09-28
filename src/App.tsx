@@ -4,9 +4,9 @@ import Header from './components/Header';
 import Dashboard from './components/Dashboard';
 import ExpenseTracker from './components/ExpenseTracker';
 import EcoAlternatives from './components/EcoAlternatives';
-import BadgeSystem from './components/BadgeSystem';
-import GoalTracker from './components/GoalTracker';
-import SocialHub from './components/SocialHub';
+// import BadgeSystem from './components/BadgeSystem';
+// import GoalTracker from './components/GoalTracker';
+// import SocialHub from './components/SocialHub';
 import Analytics from './components/Analytics';
 
 function App() {
@@ -26,12 +26,12 @@ function App() {
         return <ExpenseTracker />;
       case 'alternatives':
         return <EcoAlternatives />;
-      case 'badges':
-        return <BadgeSystem />;
-      case 'goals':
-        return <GoalTracker />;
-      case 'social':
-        return <SocialHub />;
+      // case 'badges':
+      //   return <BadgeSystem />;
+      // case 'goals':
+      //   return <GoalTracker />;
+      // case 'social':
+      //   return <SocialHub />;
       case 'analytics':
         return <Analytics />;
       default:
